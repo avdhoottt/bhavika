@@ -330,7 +330,7 @@ const CodeEditorPortfolio = () => {
               animate={{ opacity: 1, x: 0 }}
               className="text-2xl font-bold text-emerald-400"
             >
-              AF
+              BS
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 20 }}
