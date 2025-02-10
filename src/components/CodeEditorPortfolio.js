@@ -376,6 +376,9 @@ const CodeEditorPortfolio = () => {
         </motion.p>
         <div className="flex space-x-4">
           <motion.a
+          href="/Bhavika-CV.pdf"
+  download="Bhavika-CV.pdf"
+  target="_blank"
               rel="noopener noreferrer"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -511,7 +514,7 @@ const CodeEditorPortfolio = () => {
             </p>
             <div className="flex justify-center space-x-6">
               <motion.a
-                href=""
+                href="mailto:bhavikasalunkhe26@gmail.com"
                 whileHover={{ scale: 1.1, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 target="_blank"
